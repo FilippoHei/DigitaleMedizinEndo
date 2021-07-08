@@ -11,8 +11,8 @@ Check the requirements.txt file for dependencies. Install any required modules w
 Step 2)
 The neccessary data is available on Google Drive. Accessthe Drive via this [link](https://drive.google.com/drive/folders/1Y97hKWSQuv8j_5WADxtdRIvG8S__pHIr?usp=sharing)
 
-Training images = './data/images/images_training' 
-Training masks = './data/masks/masks_grayscale'
+Training images = './data/images/images_training'\
+Training masks = './data/masks/masks_grayscale'\
 Training checkpoints = './data/checkpoints'
 
 
@@ -29,12 +29,12 @@ The masks must be conditioned for the Unet (see script: "./Convert2Grayscale.ipy
 
 Since the grayscales are very low, they are not differentiable to the human eye and appear as black images. 
 
-The classes are organised as follows:
-    Class 0 = Background
-    Class 1 = Atraum. Pinzette
-    Class 2 = Nadelhalter
-    Class 3 = Klappenschere
-    Class 4 = Knotenschieber
+The classes are organised as follows:\
+    Class 0 = Background\
+    Class 1 = Atraum. Pinzette\
+    Class 2 = Nadelhalter\
+    Class 3 = Klappenschere\
+    Class 4 = Knotenschieber\
     Class 5 = Nervhaken
 
 
