@@ -53,5 +53,5 @@ The network can be tested afterwards for its performance. To do this, call the s
 
 
 Step 9)
-To determine the inter-observer variability, call the script "./InterObserverVariability.ipynb". Two folders with the same images must be created ("./data/InterObserver/Observer_01" and "./data/InterObserver/Observer_02"). The script calculates the averaged dice and intersection over union scores. 
+To determine the inter-observer variability, call the script "./InterObserverVariability.ipynb". Two folders with the same images must be created ("./unet-nested-multiple-classification/data/inter-observer-variability/observer1" and "./unet-nested-multiple-classification/data/inter-observer-variability/observer2"). The script calculates the averaged dice and intersection over union scores. 
 
