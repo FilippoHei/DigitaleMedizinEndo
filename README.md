@@ -12,8 +12,8 @@ Step 2)
 The neccessary data is available on Google Drive. Accessthe Drive via this [link](https://drive.google.com/drive/folders/1Y97hKWSQuv8j_5WADxtdRIvG8S__pHIr?usp=sharing)
 
 Training images = './unet-nested-multiple-classification/data/images/images_training'\
-Training masks = '../unet-nested-multiple-classification/data/masks/masks_grayscale'\
-Training checkpoints = '../unet-nested-multiple-classification/checkpoints'
+Training masks = './unet-nested-multiple-classification/data/masks/masks_grayscale'\
+Training checkpoints = './unet-nested-multiple-classification/checkpoints'
 
 
 Step 3)
